@@ -1,8 +1,6 @@
-const numbers = document.querySelector('.numbers')
-const cubeA = document.createElement('div');
-cubeA.classList.add('cubeA');
-const cubeB = document.createElement('div');
-cubeB.classList.add('cubeB');
+let cubeA = document.getElementById('cubeA');
+let cubeB = document.getElementById('cubeB');
+let result = document.getElementById('Victory');
 const min = 0;
 const max = 6;
 const btn = document.getElementById('estrai');
@@ -19,8 +17,14 @@ btn.addEventListener('click', function(){
   }else if (dadoA = dadoB){
     messaggio = 'Tie'
   }
-  console.log()
+  console.log(messaggio)
+
+  cubeA.append (dadoA);
+  cubeB.append (dadoB);
+  result.append (messaggio);
+
 })
+
 
 
 
