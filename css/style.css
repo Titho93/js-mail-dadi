@@ -1,0 +1,7 @@
+/* Dadi  */
+.cubes div {
+  width: 250px;
+  height: 50px;
+  background-color: lightblue;
+  border: 3px solid black;
+}

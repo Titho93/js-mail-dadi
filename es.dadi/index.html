@@ -10,11 +10,22 @@
 </head>
 <body>
 
-  <div class="container py-5 px-5">
-    <h2 id="cubeA"></h2>
-    <h2 id="cubeB"></h2>
-    <button id="estrai" class="btn btn-outline-primary" >estrai</button>
-    <h2 id="Victory"></h2>
+  <div class="container py-5 px-5 d-flex">
+    <div class="cubes">
+      <h2>Player 1</h2>
+      <div id="cubeA"></div>
+      <h2>Player 2</h2>
+      <div id="cubeB"></div>
+      <h2>Result</h2>
+      <div id="Victory"></div>
+    </div>
+    <div class="buttons px-5 ">
+      <h2>Play</h2>
+      <button id="estrai" class="btn btn-outline-primary" >estrai</button>
+      <button id="Annulla" class="btn btn-outline-danger " value="Ricarica la pagina" onclick="window.location.reload()" > ricarica</button>
+    </div>
+    
+    
   </div>
 
   <script src="js/script.js"></script>
